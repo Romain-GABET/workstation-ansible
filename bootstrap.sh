@@ -1,12 +1,10 @@
 #!/bin/bash
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt-add-repository ppa:git-core/ppa
-sudo add-apt-repository ppa:maarten-fonville/android-studio
 
 sudo apt-get update
 sudo apt-get --assume-yes upgrade
 sudo apt-get --assume-yes install ansible
-sudo apt-get --assume-yes install android-studio
 sudo apt-get -y install git
 sudo fwupdmgr get-devices
 sudo fwupdmgr get-updates
