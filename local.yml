@@ -24,10 +24,10 @@
       - neofetch
       - snap
 
-  - name: Install packages snap
-    snap: name={{item}}
-    with_items:
-      - android-studio
+  - name: Install conjure-up for Canonical Kubernetes
+    snap:
+      name: android-studio
+      classic: yes
 
   - name: add GPG key
     apt_key:
