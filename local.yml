@@ -24,8 +24,10 @@
       - neofetch
       - snap
 
-  - name: install heroku cli via snap
-    command: snap install heroku --classic
+  - name: Install conjure-up for Canonical Kubernetes
+    snap:
+      name: android-studio
+      classic: yes
 
   - name: add GPG key
     apt_key:
