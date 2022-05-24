@@ -14,5 +14,5 @@ git clone https://github.com/Romain-GABET/workstation-ansible.git .dev-env
 cd .dev-env
 sudo add-apt-repository ppa:maarten-fonville/android-studio
 sudo apt update
-sudo apt --assume-yes install android-studio
+sudo apt install android-studio -y
 ansible-playbook local.yml -i hosts -vv
