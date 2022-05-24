@@ -13,3 +13,11 @@
       - gnome-tweaks
       - python3-pip
       - emacs-nox
+      - openjdk-18-jdk
+      - google-chrome-stable
+      - discord
+      - ca-certificates
+      - docker-ce
+      - docker-ce-cli
+      - containerd.io 
+      - docker-compose-plugin
