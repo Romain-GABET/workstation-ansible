@@ -23,12 +23,7 @@
       - gimp
       - neofetch
       - snap
-
-  - name: Install packages
-    snap: name={{item}}
-    with_items:
-      - core
-      - android-studio --classic
+      - ubuntu-make
 
   - name: add GPG key
     apt_key:

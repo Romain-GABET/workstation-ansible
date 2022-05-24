@@ -12,4 +12,7 @@ mkdir Documents/Epitech
 mkdir Documents/Mazedia
 git clone https://github.com/Romain-GABET/workstation-ansible.git .dev-env
 cd .dev-env
+sudo add-apt-repository ppa:maarten-fonville/android-studio
+sudo apt update
+sudo apt install android-studio
 ansible-playbook local.yml -i hosts -vv
