@@ -24,9 +24,29 @@
       - neofetch
       - snap
 
-  - name: Install conjure-up for Canonical Kubernetes
+  - name: Install android-studio for Canonical Kubernetes
     snap:
       name: android-studio
+      classic: yes
+
+  - name: Install intellij-idea-ultimate for Canonical Kubernetes
+    snap:
+      name: intellij-idea-ultimate
+      classic: yes
+  
+  - name: Install clion for Canonical Kubernetes
+    snap:
+      name: clion
+      classic: yes
+
+  - name: Install datagrip for Canonical Kubernetes
+    snap:
+      name: datagrip
+      classic: yes
+
+  - name: Install pycharm-professional for Canonical Kubernetes
+    snap:
+      name: pycharm-professional
       classic: yes
 
   - name: add GPG key
