@@ -20,6 +20,15 @@
       - apt-transport-https
       - gnupg-agent
       - software-properties-common
+      - gimp
+      - neofetch
+      - snap
+
+  - name: Install packages
+    snap: name={{item}}
+    with_items:
+      - core
+      - android-studio --classic
 
   - name: add GPG key
     apt_key:
