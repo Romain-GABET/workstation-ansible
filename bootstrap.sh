@@ -10,6 +10,6 @@ sudo fwupdmgr get-updates
 sudo fwupdmgr update
 mkdir Documents/Epitech
 mkdir Documents/Mazedia
-git clone git@github.com:Romain-GABET/workstation-ansible.git .dev-env
+wget https://github.com/Romain-GABET/workstation-ansible.git .dev-env
 cd .dev-env
 ansible-playbook local.yml -i hosts -vv
