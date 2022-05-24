@@ -23,9 +23,8 @@
       - gimp
       - neofetch
       - snap
-      - core
 
-  - name: Install packages
+  - name: Install packages snap
     snap: name={{item}}
     with_items:
       - android-studio
