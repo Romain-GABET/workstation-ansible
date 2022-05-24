@@ -5,5 +5,11 @@
     apt: name={{item}}
     with_items:
       - htop
-      - mc
-      - tmux
+      - code
+      - git
+      - build-essential
+      - curl
+      - make
+      - gnome-tweak-tool
+      - python3-pip
+      - emacs-nox
